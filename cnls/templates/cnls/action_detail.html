@@ -1,0 +1,12 @@
+{% extends 'cnls/base.html' %}
+
+{% block content %}
+    <div class="action">
+        
+        <h1>{{ action.titre }}</h1>
+        <p>{{ action.description|linebreaks }}</p>
+        <p>{{ action.date_debut }}</p>
+        <p>{{ action.contact }}</p>
+        <p>{{ action.avancement }}</p>
+    </div>
+{% endblock %}   

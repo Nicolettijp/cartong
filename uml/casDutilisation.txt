@@ -1,0 +1,15 @@
+Gestion administrateur des "Actions"
+
+Champs Echelle Nationale : booléen
+Si oui : on occulte  la partie "localisation"
+et le point s'ajoute aux points de localisation natonales
+
+si non : on affiche la partie "local ajouté sera mis isation" et on pointe sur la carte et les champs s'autoremplis
+
+3 possibilités qui personnalise selon les cas les champs visibles:
+
+1_ niveau régional, dans ce cas la carte affiche les limites régionales et on clic pour que le champs s'update avec le clic de la carte
+
+2_ niveau Antananarivo, dans ce cas, on a les limites des fokontany e et on clic pour l"update auto du champs
+
+3_ niveau local : idem que les régions pour les communes

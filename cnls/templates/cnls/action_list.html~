@@ -1,0 +1,17 @@
+{% extends 'cnls/base.html' %}
+
+{% block content %}
+    {% for action in actions %}
+        <div class="action">
+          
+          <h1><a href="{% url 'action_detail' pk=action.pk %}">{{ action.titre }}</a></h1>    
+          <p>{{ action.description|linebreaks }}</p>
+          <p>{{ action.date_debut }}</p>
+          <p>{{ action.contact }}</p>
+          <p>{{ action.avancement }}</p>
+        </div>
+    {% endfor %}
+{% endblock content %}
+        
+
+
